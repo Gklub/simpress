@@ -1,0 +1,56 @@
+/*!This is a css list!
+*/
+
+
+a.btn:link {
+	display:line-block;
+	color:white;
+	text-decoration:none;
+	margin:2px;
+	padding: 3px 10px 3px;
+	font-size;13px;
+	text-align:center;
+	background-color:#dda0dd;
+	border:#dda0dd solid 1px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	box-shadow:2px 2px 3px #20b2aa;
+}
+
+a.btn:visited {
+	display:line-block;
+	color:#dda0dd;
+	text-decoration:none;
+	margin:2px;
+	padding: 3px 10px 3px;
+	font-size;13px;
+	text-align:center;
+	background-color:#e6e6fa;
+	border:#cccccc solid 1px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	box-shadow:2px 2px 3px #20b2aa;
+}
+
+a.btn:hover {
+	display:line-block;
+	color:#dda0dd;
+	text-decoration:none;
+	margin:2px;
+	padding: 3px 10px 3px;
+	font-size;15px;
+	text-align:center;
+	background-color:white;
+	border:#e6e6fa solid 1px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	box-shadow:2px 2px 3px #20b2aa;
+}
+
+* {
+	font-family: 'helvetica neue', tahoma, arial, 
+	'hiragino sans gb', 'microsoft yahei', sans-serif;
+}

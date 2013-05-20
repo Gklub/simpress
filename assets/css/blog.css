@@ -1,0 +1,136 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+        font-family: 'helvetica neue',tahoma,arial,'hiragino sans gb','microsoft yahei',sans-serif;
+
+	line-height: 1.4em;
+
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+
+	box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+
+	box-pack: center;
+	-moz-box-pack: center;
+	-webkit-box-pack: center;
+}
+
+a, a:visited {
+	color: hsl(240, 25%, 38%);
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsl(240, 100%, 38%);
+}
+
+header {
+	display: block;
+	padding: 10px;
+	background: hsl(240, 25%, 88%); 
+	margin-bottom: 20px;
+
+	border-radius: 0 0 10px 10px;
+}
+
+footer {
+	display: block;
+	padding: 10px;
+	background: hsl(240, 0%, 88%);
+	text-align: center;
+	margin-top: 20px;
+	
+	border-radius: 10px 10px 0 0;
+}
+
+section {
+	display: block;
+}
+
+.container {
+	max-width: 800px;
+
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+
+	box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+
+	box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+}
+
+#blogname {
+	font-family: 'Trade Winds', cursive;
+}
+
+#main {
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+
+	box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+
+	box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+}
+
+#sidebar {
+	width: 180px;
+	padding: 10px;
+	border-right: 1px; 
+	border-radius: 10px;
+	background: hsl(240, 0%, 88%);
+}
+
+#articleList {
+	padding: 0 20px 10px 10px;
+
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+
+	box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+
+	box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-direction: normal;
+}
+
+#title:hover {
+	transform: translate(30px);
+	-webkit-transform: translate(30px);
+	-moz-transform: translate(30px);
+	-o-transform: translate(30px);
+}
+
+#title {
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 1.5em;
+}
+
+#title span {
+	margin-left: 30px;
+}
