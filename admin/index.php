@@ -1,26 +1,17 @@
 <?php
-	include "smarty_inc.php";
-	
 	session_start();
-	if(isset($_SESSION['log'])){
-		include "admin_add.tpl";
-	}
 
-	$log_name = $_POST['username'];
-	$password = $_POST['password'];
+	include '../inc/smarty.php';
+	include '../inc/library.php';	
 
-	include "con_mysql.php";
+	$smarty = new Smarty();
 
-	$result = select * from admin;
-	$row = mysql_fetch_array($result);
-
-	if($log_name == $row[username] && $password == $row[password]){
-		session_register("log");
-		$log = $log_name;
-		echo "µÇÂ½³É¹¦";
-		include "admin_add.tpl";
-	else{
-		echo "ÕÊºÅ»òÃÜÂë´íÎó";
-		
+	if(check_login()) {
+		$smarty->display('admin_header.tpl');
+		$smarty->display('admin_add.tpl');
+		$smarty->display('admin_footer');
+	} else {
+		header(Location: 'login.php');
+		exit;
 	}
 ?>

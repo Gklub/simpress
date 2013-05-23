@@ -25,10 +25,10 @@
 	
 	$smarty = new Smarty();
 	
-	$smarty -> assign("links", $links);
-	$smarty -> assign("article", $article);
+	$smarty->assign("links", $links);
+	$smarty->assign("article", $article);
 	
-	$smarty -> display("index.tpl");
+	$smarty->display("index.tpl");
 	
 	//print_r($article);
 	//print_r($links);

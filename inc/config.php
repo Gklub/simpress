@@ -1,5 +1,6 @@
 <?php
-	$youruser = 'root';
-	$yourpass = 'geeklub!';
-	$db_host = 'localhost';
+//database connection information
+	$db_user = 'youruser';
+	$db_pass = 'yourpass';
+	$db_host = 'yourhost';
 ?>
